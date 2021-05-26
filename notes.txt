@@ -1,0 +1,19 @@
+Authentication
+    Front end
+    Django Authentication
+        Different permissions
+
+Document creator/viewer
+    Front end
+    Storage
+    Viewer
+    Doc creator within FE
+
+Database
+
+TO DO:
+1. Update OPP creator to be more SPA-like
+2. Link up to backend
+    i. Database schema - give it a go
+    ii. Endpoints
+3. Layout information for documents

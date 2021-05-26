@@ -1,10 +1,19 @@
-.App {
-  text-align: center;
+:root {
+  background-color: #3f3f3f;
+}
+
+* {
+  margin: 0px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Login-text-field {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +22,45 @@
   }
 }
 
+.Header-icon {
+  padding: 2vh;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3vh;
+  padding-top: 8vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  color: #828282;
+  border-bottom: 1px solid #e6fb60;
+}
+
+.App-title {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 3vh;
+  text-align: center;
+  font-size: 6vh;
+  font-family: Gill Sans, sans-serif;
+  color: #e6fb60;
+  margin-bottom: 5vh;
+}
+.App-text {
+  display: flex;
+  flex-direction: column;
+  height: 3vh;
+  text-align: center;
+  font-size: 3vh;
+  font-family: Gill Sans, sans-serif;
+  color: #e6fb60;
+  margin-bottom: 5vh;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #e6fb60;
 }
 
 @keyframes App-logo-spin {
